@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GrayFocus</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { width: 240px; margin: 0; padding: 20px; font: 14px system-ui, sans-serif; color: #222; }
+    h1 { font-size: 20px; margin: 0 0 8px; }
+    p { margin: 0 0 16px; color: #555; line-height: 1.4; }
+    button { width: 100%; border: 0; border-radius: 8px; padding: 12px; background: #292929; color: white; font: inherit; font-weight: 600; cursor: pointer; }
+    button:hover { background: #4b4b4b; }
+    button:disabled { opacity: .45; cursor: not-allowed; }
+  </style>
+</head>
+<body>
+  <h1>GrayFocus</h1>
+  <p id="status">Checking website…</p>
+  <button id="toggle" disabled>Loading…</button>
+  <script src="popup.js"></script>
+</body>
+</html>
