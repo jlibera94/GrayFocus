@@ -1,0 +1,3 @@
+html.grayfocus-grayscale {
+  filter: grayscale(100%) !important;
+}
