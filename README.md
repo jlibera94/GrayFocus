@@ -10,4 +10,4 @@ A lightweight Chrome extension that turns websites grayscale. Preferences are sa
 4. Select **Load unpacked** and choose the extracted `GrayFocus` folder.
 5. Pin GrayFocus to your toolbar, open a regular webpage, and click the icon to toggle grayscale.
 
-**Note:** Chrome does not allow extensions to change internal `chrome://` pages or the Chrome Web Store. If a webpage was already open during installation, refresh it once before toggling.
+**Note:** Chrome does not allow extensions to change internal `chrome://` pages or the Chrome Web Store. After reloading GrayFocus from `chrome://extensions`, reopen its popup on the page you want to update.
